@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Container, Header, Table } from 'semantic-ui-react';
+import './Home.css'; // Import custom styles
 
 const Home = () => {
   const [books, setBooks] = useState([]);
@@ -16,12 +17,12 @@ const Home = () => {
   }, []);
 
   return (
-    <>
-      <Header as='h1' textAlign='center'>
+    <div className="home-page">
+      <Header as='h1' textAlign='center' className="page-header">
         List of Books
       </Header>
-      <Container text textAlign='justified'>
-        <Table celled>
+      <Container text>
+        <Table celled className="custom-table">
           <Table.Header>
             <Table.Row>
               <Table.HeaderCell>Title</Table.HeaderCell>
@@ -43,7 +44,7 @@ const Home = () => {
           </Table.Body>
         </Table>
       </Container>
-    </>
+    </div>
   );
 }
 

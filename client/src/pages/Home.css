@@ -1,0 +1,43 @@
+/* Overall page background */
+.home-page {
+    background-color: #f4f6f8;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+.page-header {
+    color: #1e70bf;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Custom table styling */
+.custom-table {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th {
+    background-color: #1e70bf;
+    color: white;
+    text-align: center;
+}
+
+.custom-table td {
+    text-align: center;
+    color: #333;
+    padding: 10px;
+}
+
+/* Table row hover effect */
+.custom-table tr:hover {
+    background-color: #f0f8ff;
+}
+
+/* Container padding */
+.container {
+    padding: 20px;
+}  
