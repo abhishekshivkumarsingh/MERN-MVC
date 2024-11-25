@@ -6,7 +6,7 @@ const books = require('./routes/books')
 const genre = require('./routes/genre')
 
 const port = 5000
-const mongo_uri = 'mongodb+srv://katregunjan:dbpass@cluster0.nwngb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const mongo_uri = 'mongodb+srv://singhabhishek712004:dbpass@cluster0.yj8u7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 mongoose.connect(mongo_uri, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
   .then(() => {
